@@ -6,8 +6,8 @@ public class CameraController : MonoBehaviour
 {
     private Transform player;
 
-    private float yOffset = 2.5f;
-    private float xOffset = 7f; 
+    private float yOffset = 3f;
+    private float zOffset = 5f; 
 
     // Start is called before the first frame update
     void Start()
@@ -18,6 +18,6 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
-        transform.position = new Vector3(player.position.x + xOffset, player.position.y + yOffset,0);
+        transform.position = new Vector3(0, player.position.y + yOffset,player.position.z - zOffset);
     }
 }
