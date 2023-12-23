@@ -7,7 +7,7 @@ public class CameraController : MonoBehaviour
     private Transform player;
 
     private float yOffset = 3f;
-    private float zOffset = 5f; 
+    private float zOffset = 5.5f; 
 
     // Start is called before the first frame update
     void Start()

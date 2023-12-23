@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CameraPlayer1
   - Trigger
+  - Destroy
   layers:
   - Default
   - TransparentFX

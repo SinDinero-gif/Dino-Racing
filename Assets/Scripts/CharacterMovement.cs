@@ -9,9 +9,9 @@ public class CharacterMovement : MonoBehaviour
     void FixedUpdate(){
         
         float hMovement = Input.GetAxis("Horizontal") * mSpeed/2;
-        float vMovement = Input.GetAxis("Vertical") * mSpeed;
+        
 
-        transform.Translate(new Vector3(hMovement,0f,vMovement)*Time.deltaTime);
+        transform.Translate(new Vector3(hMovement,0f, 0f)*Time.deltaTime);
     }
 
   
