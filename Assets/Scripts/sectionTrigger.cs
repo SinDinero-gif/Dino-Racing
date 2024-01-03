@@ -4,16 +4,24 @@ using UnityEngine;
 
 public class SectionTrigger : MonoBehaviour
 {
-    public GameObject roadSection;
+    public List<GameObject> roadSection;
+    
+    private int zPos = 315;
+    public int secNum;
 
-
+    
+   
   
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Trigger"))
         {
-            Instantiate(roadSection, new Vector3(0f,0f,315f), Quaternion.identity);
+            
+            secNum = Random.Range(0,5);
+            Instantiate(roadSection[secNum], new Vector3(0f,0f,zPos), Quaternion.identity);
         }
     }
+
+    
 }
