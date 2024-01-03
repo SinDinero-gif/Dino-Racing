@@ -82,7 +82,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture:
-        m_Texture: {fileID: 8400000, guid: 62682a64dc2494943a824a091798e446, type: 2}
+        m_Texture: {fileID: 2800000, guid: 28a51d508c86a8948b59df81d5188b17, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2DAsset_b629e50be9234d78b069ab185aa2e14d_Out_0_Texture2D:
@@ -128,7 +128,7 @@ Material:
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _Sideways_Strength: 0.0002
-    - _Smoothness: 0.5
+    - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
