@@ -5,7 +5,8 @@ using UnityEngine.Assertions.Must;
 
 public class RoadMovement : MonoBehaviour
 {
-    public float roadSpeed = 10f;
+    public float roadSpeed = 15f;
+    
     
 
     // Start is called before the first frame update
@@ -18,6 +19,8 @@ public class RoadMovement : MonoBehaviour
     void FixedUpdate()
     {
         transform.position += new Vector3(0f,0f,-roadSpeed) * Time.deltaTime;
+
+        
     }
 
     private void OnTriggerEnter(Collider other){
@@ -26,4 +29,5 @@ public class RoadMovement : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
 }

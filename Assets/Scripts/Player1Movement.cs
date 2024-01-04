@@ -10,11 +10,16 @@ public class Player1Movement : MonoBehaviour
     private float m_Speed;
     public float speedValue;
     GameObject Player1;
+
+    public Animator _anim;
    
 
     
 
     private void Start(){
+
+        _anim = GetComponent<Animator>();
+
         Player1 = GameObject.FindWithTag("Player1");
         
     }
@@ -45,7 +50,9 @@ public class Player1Movement : MonoBehaviour
 
         Vector3 moveVector = player1Input.x * Vector3.right;
         moveVector.Normalize();
-        
+
+        _anim.SetFloat("PlayerHorizontal", player1Input.x);
+
         
 
         Player1.transform.Translate(moveVector * m_Speed * Time.deltaTime, Space.World);
