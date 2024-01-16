@@ -5,7 +5,10 @@ using UnityEngine.Assertions.Must;
 
 public class RoadMovement : MonoBehaviour
 {
-    public float roadSpeed = 15f;
+    
+    public float roadSpeed = 10f;
+
+    
     
     
 
@@ -20,6 +23,7 @@ public class RoadMovement : MonoBehaviour
     {
         transform.position += new Vector3(0f,0f,-roadSpeed) * Time.deltaTime;
 
+       
         
     }
 

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
@@ -18,10 +19,13 @@ public class Player1Jump : MonoBehaviour
 
     private Vector3 player1Input;
 
+    public Animator _Anim;
+
     // Start is called before the first frame update
     void Start()
     {
         _rb = GetComponent<Rigidbody>();
+        _Anim = GetComponent<Animator>();
     }
 
     //Read action
@@ -57,13 +61,27 @@ public class Player1Jump : MonoBehaviour
             _rb.AddForce(Vector3.up * Jumpforce, ForceMode.Impulse);
             grounded = false;
             _jumpPressed = false;
+
+            
         }     
         
+        if(_jumpPressed && grounded){
+
+        _Anim.SetBool("Jump", true);
+        
+        }
+
        
     }
 
     void Gravity(){
 
-        _rb.AddForce(Vector3.down * _gravityValue, ForceMode.Force);
+        _rb.AddForce(Vector3.up * -_gravityValue, ForceMode.Force);
+        
+        if(!_jumpPressed && !grounded){
+
+        _Anim.SetBool("Jump", false);
+        
+        }
     }
 }

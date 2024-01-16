@@ -6,7 +6,7 @@ public class SectionTrigger : MonoBehaviour
 {
     public List<GameObject> roadSection;
     
-    private int zPos = 315;
+    private float zPos = 424f;
     public int secNum;
 
     

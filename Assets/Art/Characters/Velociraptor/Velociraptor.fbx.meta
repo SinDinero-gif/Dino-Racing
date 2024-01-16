@@ -33,7 +33,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Velociraptor.Rig|Velociraptor.Fall
+      name: Velociraptor.Fall
       takeName: Velociraptor.Rig|Velociraptor.Fall
       internalID: -5803271297502045374
       firstFrame: 0
@@ -62,7 +62,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Velociraptor.Rig|Velociraptor.Jump
+      name: Velociraptor.Jump
       takeName: Velociraptor.Rig|Velociraptor.Jump
       internalID: 7387287746291366540
       firstFrame: 0
@@ -91,7 +91,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Velociraptor.Rig|Velociraptor.Run
+      name: Velociraptor.Run
       takeName: Velociraptor.Rig|Velociraptor.Run
       internalID: -2020568926253818238
       firstFrame: 0
@@ -120,7 +120,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Velociraptor.Rig|Velociraptor.StrafeLeft
+      name: Velociraptor.StrafeLeft
       takeName: Velociraptor.Rig|Velociraptor.StrafeLeft
       internalID: -7693990861735140838
       firstFrame: 0
@@ -149,7 +149,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Velociraptor.Rig|Velociraptor.StrafeRight
+      name: Velociraptor.StrafeRight
       takeName: Velociraptor.Rig|Velociraptor.StrafeRight
       internalID: -2978571817161796832
       firstFrame: 0

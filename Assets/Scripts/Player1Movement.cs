@@ -42,6 +42,7 @@ public class Player1Movement : MonoBehaviour
             m_Speed = speedValue;
         }
 
+
         
     }
 
@@ -57,6 +58,15 @@ public class Player1Movement : MonoBehaviour
 
         Player1.transform.Translate(moveVector * m_Speed * Time.deltaTime, Space.World);
         
+    }
+
+    private void OnTriggerEnter(Collider other){
+
+        if(other.gameObject.tag == "Obstacle"){
+
+            GameManager.health -= 1;
+        }
+
     }
 
    

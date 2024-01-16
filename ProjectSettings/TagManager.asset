@@ -8,6 +8,7 @@ TagManager:
   - Trigger
   - Destroy
   - Player1
+  - Obstacle
   layers:
   - Default
   - TransparentFX
