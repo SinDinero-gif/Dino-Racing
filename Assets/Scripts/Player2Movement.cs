@@ -9,7 +9,7 @@ public class Player2Movement : MonoBehaviour
     Vector2 player2Input;
     private float m_Speed;
     public float speedValue;
-    public GameObject Player2;
+    GameObject Player2;
 
     public Animator _anim;
    
@@ -20,11 +20,11 @@ public class Player2Movement : MonoBehaviour
 
         _anim = GetComponent<Animator>();
 
-        Player2 = GameObject.FindWithTag("Player2");
+        Player2 = GameObject.FindWithTag("Player1");
         
     }
 
-    public void OnMove(InputAction.CallbackContext ctx){
+    public void OnMovePlayer2(InputAction.CallbackContext ctx){
 
         player2Input = ctx.ReadValue<Vector2>();
     }
@@ -34,7 +34,7 @@ public class Player2Movement : MonoBehaviour
     private void FixedUpdate(){
 
        
-        MovePlayer();
+        MovePlayer2();
 
         
         if (player2Input != Vector2.zero){
@@ -47,7 +47,7 @@ public class Player2Movement : MonoBehaviour
     }
 
 
-    void MovePlayer(){
+    void MovePlayer2(){
 
         Vector3 moveVector = player2Input.x * Vector3.right;
         moveVector.Normalize();
@@ -62,9 +62,9 @@ public class Player2Movement : MonoBehaviour
 
     private void OnTriggerEnter(Collider other){
 
-        if(other.gameObject.tag == "Obstacle"){
+        if(other.gameObject.tag == "Obstacle2"){
 
-            GameManager.health -= 1;
+            GameManagerPlayer2.healthPlayer2 -= 1;
         }
 
     }

@@ -29,7 +29,7 @@ public class Player2Jump : MonoBehaviour
     }
 
     //Read action
-    public void onJump(){
+    public void onJumpPlayer2(){
         //Debug.Log("Jump pressed");
 
         //Check if no vertical movement

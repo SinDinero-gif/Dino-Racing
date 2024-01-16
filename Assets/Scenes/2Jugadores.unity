@@ -165,14 +165,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 9787702}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0af9b0c10c870d74d86a8bece333a42d, type: 3}
+  m_Script: {fileID: 11500000, guid: c5ef811e240df3842947f2ec326ca722, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOver: {fileID: 1154527597}
-  heart0: {fileID: 1297737963}
-  heart1: {fileID: 1265446630}
-  heart2: {fileID: 1377473821}
-  heart3: {fileID: 33387129}
+  gameOverP2: {fileID: 1154527597}
+  heartP20: {fileID: 1297737963}
+  heartP21: {fileID: 1265446630}
+  heartP22: {fileID: 1377473821}
+  heartP23: {fileID: 33387129}
 --- !u!1001 &10321091
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -310,7 +310,7 @@ GameObject:
   m_Component:
   - component: {fileID: 33387130}
   m_Layer: 5
-  m_Name: Heart (2)
+  m_Name: HeartP2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1034,11 +1034,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 2
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -1543,6 +1543,16 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 387642219219900892, guid: 1623fccfb4b23ed498d60a618e7882c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
+      objectReference: {fileID: 0}
+    - target: {fileID: 997394005161147641, guid: 1623fccfb4b23ed498d60a618e7882c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
+      objectReference: {fileID: 0}
     - target: {fileID: 1044712486188132918, guid: 1623fccfb4b23ed498d60a618e7882c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1593,16 +1603,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2605481582484908821, guid: 1623fccfb4b23ed498d60a618e7882c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
+      objectReference: {fileID: 0}
     - target: {fileID: 3781623276872283317, guid: 1623fccfb4b23ed498d60a618e7882c6,
         type: 3}
       propertyPath: m_Name
       value: Road Section 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4131764006423787052, guid: 1623fccfb4b23ed498d60a618e7882c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4404613619923625154, guid: 1623fccfb4b23ed498d60a618e7882c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4438941121186998199, guid: 1623fccfb4b23ed498d60a618e7882c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
       objectReference: {fileID: 0}
     - target: {fileID: 5131723444053120229, guid: 1623fccfb4b23ed498d60a618e7882c6,
         type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1016288955}
+    - target: {fileID: 6385109358571955271, guid: 1623fccfb4b23ed498d60a618e7882c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
+      objectReference: {fileID: 0}
     - target: {fileID: 6541850126533064636, guid: 1623fccfb4b23ed498d60a618e7882c6,
         type: 3}
       propertyPath: m_Mesh
@@ -2661,16 +2696,46 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1647706836932436567, guid: 4bc5d49a7163347409d4132fa5bbdf93,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2766948348063810775, guid: 4bc5d49a7163347409d4132fa5bbdf93,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063283903930850130, guid: 4bc5d49a7163347409d4132fa5bbdf93,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
+      objectReference: {fileID: 0}
     - target: {fileID: 3781623276872283317, guid: 4bc5d49a7163347409d4132fa5bbdf93,
         type: 3}
       propertyPath: m_Name
       value: Road Section 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3785878116873157185, guid: 4bc5d49a7163347409d4132fa5bbdf93,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
       objectReference: {fileID: 0}
     - target: {fileID: 5131723444053120229, guid: 4bc5d49a7163347409d4132fa5bbdf93,
         type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 439889057}
+    - target: {fileID: 5141746341191248043, guid: 4bc5d49a7163347409d4132fa5bbdf93,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688752985892275161, guid: 4bc5d49a7163347409d4132fa5bbdf93,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
+      objectReference: {fileID: 0}
     - target: {fileID: 6541850126533064636, guid: 4bc5d49a7163347409d4132fa5bbdf93,
         type: 3}
       propertyPath: m_Mesh
@@ -3507,7 +3572,7 @@ GameObject:
   - component: {fileID: 992275161}
   m_Layer: 0
   m_Name: Player2
-  m_TagString: Player
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3546,19 +3611,7 @@ MonoBehaviour:
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   m_DeviceRegainedEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -3570,7 +3623,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 992275171}
         m_TargetAssemblyTypeName: Player2Movement, Assembly-CSharp
-        m_MethodName: OnMove
+        m_MethodName: OnMovePlayer2
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3586,7 +3639,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 992275170}
         m_TargetAssemblyTypeName: Player2Jump, Assembly-CSharp
-        m_MethodName: onJump
+        m_MethodName: onJumpPlayer2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3734,7 +3787,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa4231ab71a0da04baede2e69377f868, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Jumpforce: 40
+  Jumpforce: 10
   _Anim: {fileID: 0}
 --- !u!114 &992275171
 MonoBehaviour:
@@ -3749,7 +3802,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedValue: 10
-  Player2: {fileID: 992275159}
   _anim: {fileID: 0}
 --- !u!43 &1016288955
 Mesh:
@@ -4252,7 +4304,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1154527598}
   m_Layer: 0
-  m_Name: GameOverObject
+  m_Name: GameOverObjectP2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4358,11 +4410,26 @@ PrefabInstance:
       propertyPath: m_ProvidesContacts
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4622477765591315379, guid: e8e10ff696aa56c499e505f5593568f6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4886202865750437120, guid: e8e10ff696aa56c499e505f5593568f6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
+      objectReference: {fileID: 0}
     - target: {fileID: 5131723444053120229, guid: e8e10ff696aa56c499e505f5593568f6,
         type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1721515142}
+    - target: {fileID: 6067035018262406336, guid: e8e10ff696aa56c499e505f5593568f6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
+      objectReference: {fileID: 0}
     - target: {fileID: 6541850126533064636, guid: e8e10ff696aa56c499e505f5593568f6,
         type: 3}
       propertyPath: m_Mesh
@@ -4492,7 +4559,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1265446631}
   m_Layer: 5
-  m_Name: Heart
+  m_Name: HeartP2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4563,7 +4630,7 @@ GameObject:
   - component: {fileID: 1297737966}
   - component: {fileID: 1297737965}
   m_Layer: 0
-  m_Name: Heart0
+  m_Name: HeartP20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4701,7 +4768,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1377473822}
   m_Layer: 5
-  m_Name: Heart (1)
+  m_Name: HeartP2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4933,7 +5000,6 @@ GameObject:
   - component: {fileID: 1517221105}
   - component: {fileID: 1517221104}
   - component: {fileID: 1517221108}
-  - component: {fileID: 1517221109}
   m_Layer: 5
   m_Name: 1Jugador_Canvas
   m_TagString: Untagged
@@ -5018,6 +5084,7 @@ RectTransform:
   m_Children:
   - {fileID: 885034373}
   - {fileID: 859770932}
+  - {fileID: 2067345761}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -5039,23 +5106,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   optionsWindow: {fileID: 0}
   menuPrincipal: {fileID: 0}
---- !u!114 &1517221109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1517221103}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0af9b0c10c870d74d86a8bece333a42d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameOver: {fileID: 0}
-  heart0: {fileID: 0}
-  heart1: {fileID: 0}
-  heart2: {fileID: 0}
-  heart3: {fileID: 0}
 --- !u!1001 &1594489446
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5236,10 +5286,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2822412068412021258, guid: 1b58e57e10e3e9d43bb2a73de86cc9e5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
+      objectReference: {fileID: 0}
     - target: {fileID: 3781623276872283317, guid: 1b58e57e10e3e9d43bb2a73de86cc9e5,
         type: 3}
       propertyPath: m_Name
       value: Road Section 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4710949304109824146, guid: 1b58e57e10e3e9d43bb2a73de86cc9e5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
       objectReference: {fileID: 0}
     - target: {fileID: 5131723444053120229, guid: 1b58e57e10e3e9d43bb2a73de86cc9e5,
         type: 3}
@@ -5251,6 +5311,16 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1831661581}
+    - target: {fileID: 8776230498021699710, guid: 1b58e57e10e3e9d43bb2a73de86cc9e5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8844830153822331092, guid: 1b58e57e10e3e9d43bb2a73de86cc9e5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
+      objectReference: {fileID: 0}
     - target: {fileID: 9113568330281035402, guid: 1b58e57e10e3e9d43bb2a73de86cc9e5,
         type: 3}
       propertyPath: m_Mesh
@@ -5472,6 +5542,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1909444020634080380, guid: ec873f50c546a454d8acacddb85869a8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3019443108326303036, guid: ec873f50c546a454d8acacddb85869a8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
+      objectReference: {fileID: 0}
     - target: {fileID: 3781623276872283317, guid: ec873f50c546a454d8acacddb85869a8,
         type: 3}
       propertyPath: m_Name
@@ -5487,6 +5567,16 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 455336414}
+    - target: {fileID: 8049014595567090637, guid: ec873f50c546a454d8acacddb85869a8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8685927732535105181, guid: ec873f50c546a454d8acacddb85869a8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
+      objectReference: {fileID: 0}
     - target: {fileID: 9113568330281035402, guid: ec873f50c546a454d8acacddb85869a8,
         type: 3}
       propertyPath: m_Mesh
@@ -6142,19 +6232,7 @@ MonoBehaviour:
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   m_DeviceRegainedEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -6463,12 +6541,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2067345759}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1.0000001}
-  m_LocalPosition: {x: 0, y: 0, z: -0.000000059604645}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.07170439, y: -0, z: -0, w: 0.997426}
+  m_LocalPosition: {x: 14549.229, y: -162.49817, z: 28.28408}
+  m_LocalScale: {x: 46.188026, y: 46.188026, z: 46.188026}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1517221107}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2080538611
 GameObject:
@@ -6749,7 +6827,6 @@ SceneRoots:
   - {fileID: 1040643642}
   - {fileID: 914529476}
   - {fileID: 1517221107}
-  - {fileID: 2067345761}
   - {fileID: 1634357100}
   - {fileID: 1348231912}
   - {fileID: 1101153269}

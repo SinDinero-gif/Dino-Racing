@@ -9,6 +9,7 @@ TagManager:
   - Destroy
   - Player1
   - Obstacle
+  - Obstacle2
   layers:
   - Default
   - TransparentFX

@@ -9,7 +9,7 @@
                     "name": "MovePlayer2",
                     "type": "Value",
                     "id": "1231fa3d-d8f6-42a4-858e-bfaa9a84e1ef",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
