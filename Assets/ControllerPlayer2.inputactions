@@ -6,15 +6,6 @@
             "id": "0a4230c3-fa3c-4107-9b4a-7c977d494bdc",
             "actions": [
                 {
-                    "name": "MovePlayer2",
-                    "type": "Value",
-                    "id": "1231fa3d-d8f6-42a4-858e-bfaa9a84e1ef",
-                    "expectedControlType": "Vector2",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
-                },
-                {
                     "name": "Jump",
                     "type": "Button",
                     "id": "7e9092e3-9106-4fb0-8cd6-be70111a68d0",
@@ -25,72 +16,6 @@
                 }
             ],
             "bindings": [
-                {
-                    "name": "",
-                    "id": "1c1ec305-97d5-4fdd-8b0e-31fd3a1b3722",
-                    "path": "<Gamepad>/leftStick",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "MovePlayer2",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "2D Vector",
-                    "id": "9b57460c-0ef4-4c67-8ab9-2540b1d930b4",
-                    "path": "2DVector",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "MovePlayer2",
-                    "isComposite": true,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "up",
-                    "id": "14ffc88a-4d01-4923-85d3-a800ba35fe8e",
-                    "path": "<Keyboard>/upArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "MovePlayer2",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "down",
-                    "id": "10042523-5ca8-40c2-a66a-c5c4a8b23d9f",
-                    "path": "<Keyboard>/downArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "MovePlayer2",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "left",
-                    "id": "3b1c8723-fc8d-4a0c-a808-a1768f7c5165",
-                    "path": "<Keyboard>/leftArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "MovePlayer2",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "right",
-                    "id": "74f50693-c3af-4ccc-b86e-690f53ccbfed",
-                    "path": "<Keyboard>/rightArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "MovePlayer2",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
                 {
                     "name": "",
                     "id": "c08afad8-9545-4c4f-a891-26d594347e54",

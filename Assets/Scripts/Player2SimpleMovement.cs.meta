@@ -1,10 +1,9 @@
 fileFormatVersion: 2
-guid: adbcc106d717746459fa9f2f5ed27e53
+guid: bfcd5f0ec348ddb4fb3440dd6a09dc28
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences:
-  - CurveMat: {fileID: 2100000, guid: 2c2dbf076f604794ca3c0f115b327104, type: 2}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

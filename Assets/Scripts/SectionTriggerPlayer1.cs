@@ -7,10 +7,10 @@ public class SectionTriggerPlayer1 : MonoBehaviour
     public List<GameObject> roadSection;
     
     private float zPos = 424f;
-    private float xPos = 215f;
+    private float xPos = 515f;
     public int secNum;
 
-    public static int counter = 0;
+    public static int counteRoad1 = 0;
 
     
    
@@ -28,8 +28,8 @@ public class SectionTriggerPlayer1 : MonoBehaviour
         
         if(other.gameObject.CompareTag("Trigger")){
 
-            SectionTriggerPlayer1.counter += 1;
-            Debug.Log("Contador" + counter); 
+            counteRoad1 += 1;
+            Debug.Log("Contador" + counteRoad1); 
         }
     }
 

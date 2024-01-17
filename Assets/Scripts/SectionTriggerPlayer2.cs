@@ -7,10 +7,10 @@ public class SectionTriggerPlayer2 : MonoBehaviour
     public List<GameObject> roadSection;
     
     private float zPos = 424f;
-    private float xPos = 215f;
+    private float xPos = 0f;
     public int secNum;
 
-    public static int counter = 0;
+    public static int counterRoad2 = 0;
 
     
    
@@ -21,15 +21,15 @@ public class SectionTriggerPlayer2 : MonoBehaviour
         if (other.gameObject.CompareTag("Trigger"))
         {
             secNum = Random.Range(0,5);
-            Instantiate(roadSection[secNum], new Vector3(-xPos,0f,zPos), Quaternion.identity);
+            Instantiate(roadSection[secNum], new Vector3(xPos,0f,zPos), Quaternion.identity);
            
         }
 
         
         if(other.gameObject.CompareTag("Trigger")){
 
-            SectionTriggerPlayer1.counter += 1;
-            Debug.Log("Contador" + counter); 
+            counterRoad2 += 1;
+            Debug.Log("Contador" + counterRoad2); 
         }
     }
 

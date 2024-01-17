@@ -7,7 +7,7 @@ public class CurveRoadController : MonoBehaviour
     public Material CurveMat;
     public float RoadDistance = 0;
     public float RoadCurve = 0;
-    private float RandomValue;
+    
 
     void Start(){
         CurveMat.GetFloat("_Sideways_Strength");
@@ -17,9 +17,9 @@ public class CurveRoadController : MonoBehaviour
         RoadDistance+= 5 * Time.deltaTime;
         
 
-        if (RoadDistance >= 100){
+        if (RoadDistance >= 1000){
 
-            CurveMat.SetFloat("_Sideways_Strength", RoadCurve+= 0.0001f);
+            CurveMat.SetFloat("_Sideways_Strength", RoadCurve += 0.0001f);
         }
 
         if(RoadCurve == 0.001f){
