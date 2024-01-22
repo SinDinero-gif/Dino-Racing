@@ -10,10 +10,14 @@ public class Player1Jump : MonoBehaviour
     private Rigidbody _rb;
     
     //Variables
-    public float Jumpforce = 40.0f;
+    public float Jumpforce = 35.0f;
 
     private bool grounded;
     private bool _jumpPressed = false;
+
+    private bool isGrounded;
+    private bool isJumping;
+    private bool isFalling;
 
     private float _gravityValue = 9.81f;
 
@@ -21,11 +25,13 @@ public class Player1Jump : MonoBehaviour
 
     public Animator _Anim;
 
+   
     // Start is called before the first frame update
     void Start()
     {
         _rb = GetComponent<Rigidbody>();
         _Anim = GetComponent<Animator>();
+
     }
 
     //Read action
@@ -36,8 +42,11 @@ public class Player1Jump : MonoBehaviour
         if(_rb.velocity.y == 0){
             //Debug.Log("Can jump");
             _jumpPressed = true;
+            _Anim.SetBool("IsJumping", true);
+            isJumping = true;
 
-        }else {
+        }
+        else {
             //Debug.Log("Can't jump - In the air");
         }
 
@@ -54,24 +63,26 @@ public class Player1Jump : MonoBehaviour
     void Jump(){
 
         grounded = _rb.velocity.y == 0;
-        
+        _Anim.SetBool("IsGrounded", true);
+        isGrounded = true;
+        _Anim.SetBool("IsJumping", false);
+        isJumping = false;
+        _Anim.SetBool("IsFalling", false);
+        isFalling = false;
 
         if(_jumpPressed && grounded){
             
             _rb.AddForce(Vector3.up * Jumpforce, ForceMode.Impulse);
             grounded = false;
             _jumpPressed = false;
-
+            _Anim.SetBool("IsGrounded", false);
+            isGrounded = false;
             
-        }     
-        
-        if(_jumpPressed && grounded){
 
-        _Anim.SetBool("Jump", true);
-        
         }
+        
 
-       
+         
     }
 
     void Gravity(){
@@ -80,8 +91,20 @@ public class Player1Jump : MonoBehaviour
         
         if(!_jumpPressed && !grounded){
 
-        _Anim.SetBool("Jump", false);
-        
+            _Anim.SetBool("IsJumping", false);
+            isJumping= false;
+            _Anim.SetBool("IsFalling", true);
+            isFalling= true;
+             
+        }
+
+        if(!_jumpPressed && grounded)
+        {
+            _Anim.SetBool("IsFalling", false);
+            isFalling = false;
+            _Anim.SetBool("IsGrounded", true);
+            isGrounded = true;
+
         }
     }
 }

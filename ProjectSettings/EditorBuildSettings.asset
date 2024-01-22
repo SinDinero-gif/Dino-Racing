@@ -9,8 +9,11 @@ EditorBuildSettings:
     path: "Assets/Scenes/Men\xFA.unity"
     guid: c3fb7dd5ca1bdd547b622150dfabdada
   - enabled: 1
-    path: Assets/Scenes/1Jugador.unity
+    path: Assets/Scenes/UnJugador.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/DosJugadores.unity
+    guid: 94c42d564803ea84992e8af446485db9
   - enabled: 1
     path: Assets/Scenes/Options.unity
     guid: 20bae0445a83a0346aa8a35052fe7851
