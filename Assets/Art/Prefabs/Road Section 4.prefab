@@ -431,6 +431,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6003813834245515420, guid: a2584e7ffd3de3c429b3cdedd0b2301a,
         type: 3}
+      propertyPath: m_Size.z
+      value: 0.017715044
+      objectReference: {fileID: 0}
+    - target: {fileID: 6003813834245515420, guid: a2584e7ffd3de3c429b3cdedd0b2301a,
+        type: 3}
+      propertyPath: m_Center.x
+      value: 0.00009697069
+      objectReference: {fileID: 0}
+    - target: {fileID: 6003813834245515420, guid: a2584e7ffd3de3c429b3cdedd0b2301a,
+        type: 3}
+      propertyPath: m_Center.y
+      value: -0.000045955177
+      objectReference: {fileID: 0}
+    - target: {fileID: 6003813834245515420, guid: a2584e7ffd3de3c429b3cdedd0b2301a,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -0.0014331617
+      objectReference: {fileID: 0}
+    - target: {fileID: 6003813834245515420, guid: a2584e7ffd3de3c429b3cdedd0b2301a,
+        type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
@@ -650,6 +670,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ProvidesContacts
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2734492028559244920, guid: b71b0f8d2f881c743a85228f3030d1cb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 2835129044729284803, guid: b71b0f8d2f881c743a85228f3030d1cb,
         type: 3}

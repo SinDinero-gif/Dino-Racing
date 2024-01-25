@@ -217,6 +217,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6003813834245515420, guid: a2584e7ffd3de3c429b3cdedd0b2301a,
         type: 3}
+      propertyPath: m_Size.z
+      value: 0.017715044
+      objectReference: {fileID: 0}
+    - target: {fileID: 6003813834245515420, guid: a2584e7ffd3de3c429b3cdedd0b2301a,
+        type: 3}
+      propertyPath: m_Center.x
+      value: 0.00009697069
+      objectReference: {fileID: 0}
+    - target: {fileID: 6003813834245515420, guid: a2584e7ffd3de3c429b3cdedd0b2301a,
+        type: 3}
+      propertyPath: m_Center.y
+      value: -0.000045955177
+      objectReference: {fileID: 0}
+    - target: {fileID: 6003813834245515420, guid: a2584e7ffd3de3c429b3cdedd0b2301a,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -0.0014331617
+      objectReference: {fileID: 0}
+    - target: {fileID: 6003813834245515420, guid: a2584e7ffd3de3c429b3cdedd0b2301a,
+        type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
@@ -453,6 +473,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 2c2dbf076f604794ca3c0f115b327104, type: 2}
+    - target: {fileID: 8284389702184043545, guid: 3cdafb3c2f54d434894928d72d282874,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
